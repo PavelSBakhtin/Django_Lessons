@@ -23,3 +23,563 @@ INFO 2023-09-18 21:44:13,906 views 12172 8816 Index page accessed
 INFO 2023-09-18 21:44:13,907 basehttp 12172 8816 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2023-09-28 18:34:58,541 autoreload 11248 10760 Watching for file changes with StatReloader
 INFO 2023-09-28 18:38:58,748 autoreload 9952 9904 Watching for file changes with StatReloader
+INFO 2023-10-01 18:50:41,933 autoreload 7228 1908 Watching for file changes with StatReloader
+WARNING 2023-10-01 18:50:56,145 log 7228 8392 Not Found: /
+WARNING 2023-10-01 18:50:56,145 basehttp 7228 8392 "GET / HTTP/1.1" 404 2277
+WARNING 2023-10-01 18:51:38,306 log 7228 8392 Not Found: /lesson3
+WARNING 2023-10-01 18:51:38,307 basehttp 7228 8392 "GET /lesson3 HTTP/1.1" 404 2316
+WARNING 2023-10-01 18:52:04,166 log 7228 8392 Not Found: /lesson3/
+WARNING 2023-10-01 18:52:04,166 basehttp 7228 8392 "GET /lesson3/ HTTP/1.1" 404 2563
+INFO 2023-10-01 18:52:56,154 basehttp 7228 8392 "GET /lesson3/hello HTTP/1.1" 301 0
+INFO 2023-10-01 18:52:56,160 basehttp 7228 9120 "GET /lesson3/hello/ HTTP/1.1" 200 26
+INFO 2023-10-01 18:53:08,259 basehttp 7228 9120 "GET /lesson3/hello2 HTTP/1.1" 301 0
+INFO 2023-10-01 18:53:08,265 basehttp 7228 1576 "GET /lesson3/hello2/ HTTP/1.1" 200 23
+INFO 2023-10-01 19:10:43,983 autoreload 8752 2296 Watching for file changes with StatReloader
+INFO 2023-10-01 19:10:55,578 basehttp 8752 5516 "GET /lesson3/hello2/ HTTP/1.1" 200 23
+WARNING 2023-10-01 19:11:00,740 log 8752 5516 Not Found: /lesson3/
+WARNING 2023-10-01 19:11:00,741 basehttp 8752 5516 "GET /lesson3/ HTTP/1.1" 404 3208
+INFO 2023-10-01 19:11:27,444 basehttp 8752 5516 "GET /lesson3/posts/2022/6 HTTP/1.1" 301 0
+INFO 2023-10-01 19:11:27,450 basehttp 8752 856 "GET /lesson3/posts/2022/6/ HTTP/1.1" 200 21
+INFO 2023-10-01 19:11:37,862 basehttp 8752 856 "GET /lesson3/posts/2022/6/python HTTP/1.1" 301 0
+INFO 2023-10-01 19:11:37,869 basehttp 8752 8428 "GET /lesson3/posts/2022/6/python/ HTTP/1.1" 200 360
+INFO 2023-10-01 19:23:58,206 autoreload 3672 10064 Watching for file changes with StatReloader
+INFO 2023-10-01 19:24:05,584 basehttp 3672 864 "GET /lesson3 HTTP/1.1" 301 0
+INFO 2023-10-01 19:24:05,641 basehttp 3672 2216 "GET /lesson3/ HTTP/1.1" 200 179
+INFO 2023-10-01 19:35:58,073 autoreload 1252 7536 Watching for file changes with StatReloader
+INFO 2023-10-01 19:36:10,900 basehttp 1252 9200 "GET /lesson3/if HTTP/1.1" 301 0
+INFO 2023-10-01 19:36:10,946 basehttp 1252 4492 "GET /lesson3/if/ HTTP/1.1" 200 350
+INFO 2023-10-01 19:36:55,397 autoreload 1252 7536 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-01 19:36:56,687 autoreload 7588 9736 Watching for file changes with StatReloader
+INFO 2023-10-01 19:36:58,582 basehttp 7588 9908 "GET /lesson3/if/ HTTP/1.1" 200 348
+INFO 2023-10-01 19:37:10,277 autoreload 7588 9736 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-01 19:37:11,565 autoreload 9188 1344 Watching for file changes with StatReloader
+INFO 2023-10-01 19:42:13,315 autoreload 9188 1344 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-01 19:42:14,641 autoreload 9148 10012 Watching for file changes with StatReloader
+INFO 2023-10-01 19:42:30,551 autoreload 9148 10012 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-01 19:42:31,819 autoreload 1520 9592 Watching for file changes with StatReloader
+INFO 2023-10-01 19:45:08,507 autoreload 1520 9592 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-01 19:45:09,773 autoreload 8504 9192 Watching for file changes with StatReloader
+INFO 2023-10-01 19:45:17,159 autoreload 8504 9192 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-01 19:45:18,401 autoreload 8536 9672 Watching for file changes with StatReloader
+INFO 2023-10-01 19:45:43,993 basehttp 8536 8804 "GET /lesson3/for HTTP/1.1" 301 0
+INFO 2023-10-01 19:45:44,005 basehttp 8536 3720 "GET /lesson3/for/ HTTP/1.1" 200 1168
+INFO 2023-10-01 20:04:19,015 autoreload 8536 9672 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py changed, reloading.
+INFO 2023-10-01 20:04:20,353 autoreload 9852 9148 Watching for file changes with StatReloader
+INFO 2023-10-01 20:04:56,632 autoreload 9852 9148 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-01 20:04:58,231 autoreload 4832 2640 Watching for file changes with StatReloader
+INFO 2023-10-01 20:06:19,225 autoreload 4832 2640 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-01 20:06:20,578 autoreload 4304 9900 Watching for file changes with StatReloader
+INFO 2023-10-01 20:06:34,100 autoreload 4304 9900 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-10-01 20:06:35,435 autoreload 6408 8992 Watching for file changes with StatReloader
+INFO 2023-10-01 20:07:04,986 basehttp 6408 8752 "GET /lesson3/index HTTP/1.1" 301 0
+INFO 2023-10-01 20:07:04,999 basehttp 6408 4016 "GET /lesson3/index/ HTTP/1.1" 200 512
+INFO 2023-10-01 20:07:14,991 basehttp 6408 4016 "GET /lesson3/about HTTP/1.1" 301 0
+INFO 2023-10-01 20:07:14,999 basehttp 6408 8484 "GET /lesson3/about/ HTTP/1.1" 200 518
+INFO 2023-10-01 20:10:00,620 autoreload 6408 8992 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-01 20:10:01,911 autoreload 1920 2216 Watching for file changes with StatReloader
+INFO 2023-10-01 20:13:45,967 autoreload 1920 2216 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-01 20:13:47,265 autoreload 4484 9436 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:14:33,172 log 4484 7932 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:14:33,179 basehttp 4484 7932 "GET /lesson3/index/ HTTP/1.1" 500 137567
+INFO 2023-10-01 20:14:52,637 autoreload 8444 5104 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:14:57,297 log 8444 1544 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:14:57,304 basehttp 8444 1544 "GET /lesson3/index/ HTTP/1.1" 500 137704
+INFO 2023-10-01 20:19:34,489 autoreload 8444 5104 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-01 20:19:35,926 autoreload 7096 3572 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:19:43,886 log 7096 4832 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:19:43,892 basehttp 7096 4832 "GET /lesson3/index/ HTTP/1.1" 500 137704
+INFO 2023-10-01 20:19:53,415 autoreload 10120 9332 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:19:53,945 log 10120 8752 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:19:53,953 basehttp 10120 8752 "GET /lesson3/index/ HTTP/1.1" 500 137704
+INFO 2023-10-01 20:24:26,042 autoreload 10232 9084 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:24:29,099 log 10232 8544 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:24:29,105 basehttp 10232 8544 "GET /lesson3/index/ HTTP/1.1" 500 137704
+INFO 2023-10-01 20:24:37,996 basehttp 10232 8544 "GET /lesson3/if/ HTTP/1.1" 200 348
+ERROR 2023-10-01 20:24:47,533 log 10232 8544 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:24:47,538 basehttp 10232 8544 "GET /lesson3/index/ HTTP/1.1" 500 137567
+INFO 2023-10-01 20:25:44,907 autoreload 10232 9084 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-01 20:25:46,181 autoreload 7208 6584 Watching for file changes with StatReloader
+INFO 2023-10-01 20:26:36,886 autoreload 7208 6584 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myproject\urls.py changed, reloading.
+INFO 2023-10-01 20:26:38,224 autoreload 9824 8012 Watching for file changes with StatReloader
+ERROR 2023-10-01 20:26:44,569 log 9824 9656 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:26:44,577 basehttp 9824 9656 "GET /lesson3/index/ HTTP/1.1" 500 137704
+INFO 2023-10-01 20:26:52,010 basehttp 9824 9656 "GET /lesson3/ HTTP/1.1" 200 179
+ERROR 2023-10-01 20:27:16,456 log 9824 9656 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:27:16,461 basehttp 9824 9656 "GET / HTTP/1.1" 500 137399
+ERROR 2023-10-01 20:30:57,836 log 9824 9656 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:30:57,840 basehttp 9824 9656 "GET / HTTP/1.1" 500 137476
+ERROR 2023-10-01 20:31:57,938 log 9824 9656 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:31:57,942 basehttp 9824 9656 "GET / HTTP/1.1" 500 137575
+ERROR 2023-10-01 20:32:07,370 log 9824 9656 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:32:07,375 basehttp 9824 9656 "GET /lesson3/index/ HTTP/1.1" 500 137606
+ERROR 2023-10-01 20:32:52,770 log 9824 9656 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 514, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 531, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'myapp3/base.html'> must be the first tag in the template.
+ERROR 2023-10-01 20:32:52,774 basehttp 9824 9656 "GET /lesson3/index/ HTTP/1.1" 500 146347
+ERROR 2023-10-01 20:34:46,327 log 9824 9656 Internal Server Error: /lesson3/index/
+Traceback (most recent call last):
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\views.py", line 74, in index
+    return render(request, 'myapp3/index.html')
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\venv\lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'extends' cannot appear more than once in the same template
+ERROR 2023-10-01 20:34:46,331 basehttp 9824 9656 "GET /lesson3/index/ HTTP/1.1" 500 137608
+INFO 2023-10-01 20:35:35,453 basehttp 9824 9656 "GET /lesson3/index/ HTTP/1.1" 200 613
+INFO 2023-10-01 20:36:22,724 basehttp 9824 9656 "GET /lesson3/index/ HTTP/1.1" 200 613
+INFO 2023-10-01 20:36:34,455 basehttp 9824 9656 "GET /lesson3/about/ HTTP/1.1" 200 619
+INFO 2023-10-01 20:36:40,421 basehttp 9824 9656 "GET / HTTP/1.1" 200 613
+WARNING 2023-10-01 20:36:50,082 log 9824 9656 Not Found: /about
+WARNING 2023-10-01 20:36:50,083 basehttp 9824 9656 "GET /about HTTP/1.1" 404 2410
+INFO 2023-10-01 20:36:59,494 basehttp 9824 9656 "GET /lesson3/ HTTP/1.1" 200 179
+INFO 2023-10-01 20:37:14,258 basehttp 9824 9656 "GET /lesson3/about/ HTTP/1.1" 200 619
+INFO 2023-10-01 20:40:14,842 autoreload 9824 8012 D:\учёба\Python\19. Фреймворк Django\Семинары\Lessons\myproject\myapp3\models.py changed, reloading.
+INFO 2023-10-01 20:40:16,218 autoreload 9148 888 Watching for file changes with StatReloader
+INFO 2023-10-01 21:11:57,420 autoreload 7720 4476 Watching for file changes with StatReloader
+INFO 2023-10-01 21:12:43,070 basehttp 7720 3460 "GET /lesson3/author/5 HTTP/1.1" 301 0
+INFO 2023-10-01 21:12:43,096 basehttp 7720 10044 "GET /lesson3/author/5/ HTTP/1.1" 200 1287
+INFO 2023-10-01 21:12:57,407 basehttp 7720 10044 "GET /lesson3/post/48/ HTTP/1.1" 200 693
+INFO 2023-10-01 21:13:15,576 basehttp 7720 10044 "GET /lesson3/post/47/ HTTP/1.1" 200 710
+INFO 2023-10-01 21:13:17,922 basehttp 7720 10044 "GET /lesson3/post/50/ HTTP/1.1" 200 721
+INFO 2023-10-01 21:13:20,323 basehttp 7720 10044 "GET /lesson3/post/46/ HTTP/1.1" 200 704
+INFO 2023-10-01 21:13:23,373 basehttp 7720 10044 "GET /lesson3/post/49/ HTTP/1.1" 200 707
+INFO 2023-10-01 21:14:03,180 basehttp 7720 10044 "GET /lesson3/author/3 HTTP/1.1" 301 0
+INFO 2023-10-01 21:14:03,192 basehttp 7720 1312 "GET /lesson3/author/3/ HTTP/1.1" 200 1319
+INFO 2023-10-01 21:14:07,954 basehttp 7720 1312 "GET /lesson3/post/30/ HTTP/1.1" 200 707
