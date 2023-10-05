@@ -642,3 +642,60 @@ INFO 2023-10-05 20:24:53,963 autoreload 11528 9592 Watching for file changes wit
 INFO 2023-10-05 20:25:13,966 basehttp 11528 10968 "GET /lesson4/upload HTTP/1.1" 301 0
 INFO 2023-10-05 20:25:13,991 basehttp 11528 12568 "GET /lesson4/upload/ HTTP/1.1" 200 645
 INFO 2023-10-05 20:27:48,814 basehttp 11528 12568 "POST /lesson4/upload/ HTTP/1.1" 200 645
+INFO 2023-10-05 20:56:57,164 autoreload 12080 12992 Watching for file changes with StatReloader
+INFO 2023-10-05 20:57:23,189 basehttp 12080 12204 "GET /admin HTTP/1.1" 301 0
+INFO 2023-10-05 20:57:23,217 basehttp 12080 12960 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 20:57:23,310 basehttp 12080 12960 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-10-05 20:57:23,373 basehttp 12080 11368 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-10-05 20:57:23,374 basehttp 12080 10564 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-05 20:57:23,375 basehttp 12080 12960 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-10-05 20:57:23,375 basehttp 12080 9336 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-10-05 20:57:23,378 basehttp 12080 11496 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-10-05 20:57:23,493 basehttp 12080 11496 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-10-05 20:57:23,494 basehttp 12080 12960 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-10-05 20:57:52,033 basehttp 12080 12960 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2023-10-05 20:59:08,801 autoreload 12080 12992 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myproject\settings.py changed, reloading.
+INFO 2023-10-05 20:59:10,342 autoreload 6804 7796 Watching for file changes with StatReloader
+INFO 2023-10-05 21:00:28,099 basehttp 6804 10464 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-10-05 21:08:35,105 autoreload 9244 12828 Watching for file changes with StatReloader
+INFO 2023-10-05 21:08:40,262 basehttp 9244 12572 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 21:08:40,364 basehttp 9244 12572 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-10-05 21:08:40,464 basehttp 9244 12572 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-10-05 21:08:40,631 basehttp 9244 12572 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-10-05 21:08:40,632 basehttp 9244 13276 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-10-05 21:11:20,557 basehttp 9244 13276 "GET /admin/auth/user/ HTTP/1.1" 200 10452
+INFO 2023-10-05 21:11:20,607 basehttp 9244 13276 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-05 21:11:20,608 basehttp 9244 8868 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-05 21:11:20,624 basehttp 9244 12572 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-10-05 21:11:20,624 basehttp 9244 3720 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-05 21:11:20,627 basehttp 9244 1540 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-05 21:11:20,642 basehttp 9244 13276 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-05 21:11:20,643 basehttp 9244 8868 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-05 21:11:20,645 basehttp 9244 12572 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-05 21:11:20,664 basehttp 9244 8376 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-05 21:11:20,681 basehttp 9244 1540 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-05 21:11:20,751 basehttp 9244 1540 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-05 21:11:20,754 basehttp 9244 8376 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-05 21:11:20,769 basehttp 9244 8376 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-05 21:11:20,806 basehttp 9244 8376 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-05 21:11:20,807 basehttp 9244 1540 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-10-05 21:12:05,943 basehttp 9244 1540 "GET /admin/auth/user/add/ HTTP/1.1" 200 10035
+INFO 2023-10-05 21:12:05,997 basehttp 9244 8376 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-05 21:12:05,997 basehttp 9244 1540 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-05 21:12:06,005 basehttp 9244 12572 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-10-05 21:12:06,106 basehttp 9244 8376 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-10-05 21:12:06,107 basehttp 9244 12572 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-05 21:12:54,037 basehttp 9244 12572 "POST /admin/auth/user/add/ HTTP/1.1" 200 10314
+INFO 2023-10-05 21:12:54,082 basehttp 9244 12572 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-10-05 21:13:44,845 basehttp 9244 12572 "POST /admin/logout/ HTTP/1.1" 200 3576
+INFO 2023-10-05 21:14:54,747 autoreload 9244 12828 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp5\models.py changed, reloading.
+INFO 2023-10-05 21:14:56,101 autoreload 13248 12900 Watching for file changes with StatReloader
+INFO 2023-10-05 21:15:15,640 autoreload 13248 12900 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp5\models.py changed, reloading.
+INFO 2023-10-05 21:15:17,005 autoreload 12012 9628 Watching for file changes with StatReloader
+INFO 2023-10-05 21:15:31,651 autoreload 12012 9628 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp5\models.py changed, reloading.
+INFO 2023-10-05 21:15:33,121 autoreload 1332 11348 Watching for file changes with StatReloader
+INFO 2023-10-05 21:20:43,453 autoreload 1788 12952 Watching for file changes with StatReloader
+INFO 2023-10-05 21:20:49,053 basehttp 1788 10528 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 21:20:49,121 basehttp 1788 10528 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-10-05 21:20:56,825 basehttp 1788 10528 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-05 21:20:56,858 basehttp 1788 10528 "GET /admin/ HTTP/1.1" 200 6992
