@@ -583,3 +583,62 @@ INFO 2023-10-01 21:13:23,373 basehttp 7720 10044 "GET /lesson3/post/49/ HTTP/1.1
 INFO 2023-10-01 21:14:03,180 basehttp 7720 10044 "GET /lesson3/author/3 HTTP/1.1" 301 0
 INFO 2023-10-01 21:14:03,192 basehttp 7720 1312 "GET /lesson3/author/3/ HTTP/1.1" 200 1319
 INFO 2023-10-01 21:14:07,954 basehttp 7720 1312 "GET /lesson3/post/30/ HTTP/1.1" 200 707
+INFO 2023-10-05 18:55:00,557 autoreload 9296 6080 Watching for file changes with StatReloader
+INFO 2023-10-05 18:56:09,285 autoreload 8848 10420 Watching for file changes with StatReloader
+INFO 2023-10-05 18:56:11,819 basehttp 8848 9340 "GET / HTTP/1.1" 200 613
+WARNING 2023-10-05 18:56:32,643 log 8848 9340 Not Found: /дуыыщт4
+WARNING 2023-10-05 18:56:32,645 basehttp 8848 9340 "GET /%D0%B4%D1%83%D1%8B%D1%8B%D1%89%D1%824 HTTP/1.1" 404 2566
+WARNING 2023-10-05 18:56:43,443 log 8848 9340 Not Found: /lesson4/
+WARNING 2023-10-05 18:56:43,453 basehttp 8848 9340 "GET /lesson4/ HTTP/1.1" 404 2601
+WARNING 2023-10-05 18:56:56,650 log 8848 9340 Not Found: /lesson4/
+WARNING 2023-10-05 18:56:56,651 basehttp 8848 9340 "GET /lesson4/ HTTP/1.1" 404 2601
+INFO 2023-10-05 18:57:00,005 basehttp 8848 9340 "GET /lesson4/user/add/ HTTP/1.1" 200 761
+INFO 2023-10-05 19:01:16,658 autoreload 1104 5028 Watching for file changes with StatReloader
+INFO 2023-10-05 19:01:19,765 basehttp 1104 11980 "GET /lesson4/user/add/ HTTP/1.1" 200 979
+INFO 2023-10-05 19:02:28,560 basehttp 1104 11980 "POST /lesson4/user/add/ HTTP/1.1" 200 1025
+INFO 2023-10-05 19:02:58,679 basehttp 1104 11980 "POST /lesson4/user/add/ HTTP/1.1" 200 1025
+INFO 2023-10-05 19:03:12,839 basehttp 1104 11980 "POST /lesson4/user/add/ HTTP/1.1" 200 1024
+INFO 2023-10-05 19:04:08,992 basehttp 1104 11980 "POST /lesson4/user/add/ HTTP/1.1" 200 1026
+INFO 2023-10-05 19:05:29,850 autoreload 11496 11204 Watching for file changes with StatReloader
+WARNING 2023-10-05 19:05:31,797 log 11496 5064 Not Found: /lesson4/user/
+WARNING 2023-10-05 19:05:31,798 basehttp 11496 5064 "GET /lesson4/user/ HTTP/1.1" 404 2616
+INFO 2023-10-05 19:26:51,945 autoreload 7808 9864 Watching for file changes with StatReloader
+WARNING 2023-10-05 19:26:59,606 log 7808 12632 Not Found: /lesson4/user/
+WARNING 2023-10-05 19:26:59,607 basehttp 7808 12632 "GET /lesson4/user/ HTTP/1.1" 404 2802
+WARNING 2023-10-05 19:27:06,449 log 7808 12632 Not Found: /lesson4/ forms/
+WARNING 2023-10-05 19:27:06,474 basehttp 7808 12632 "GET /lesson4/%20forms/ HTTP/1.1" 404 2810
+INFO 2023-10-05 19:27:14,593 basehttp 7808 12632 "GET /lesson4/forms/ HTTP/1.1" 200 1522
+INFO 2023-10-05 19:28:28,947 views 7808 12632 Получили form.cleaned_data={'name': 'name', 'email': 'name@name.com', 'age': 37, 'height': 176.5, 'is_active': False, 'birthdate': datetime.date(1983, 10, 5), 'gender': 'M'}.
+INFO 2023-10-05 19:28:28,957 basehttp 7808 12632 "POST /lesson4/forms/ HTTP/1.1" 200 1591
+INFO 2023-10-05 19:29:00,227 views 7808 12632 Получили form.cleaned_data={'name': 'name', 'email': 'name@name.com', 'age': 37, 'height': 176.5, 'is_active': True, 'birthdate': datetime.date(1983, 10, 5), 'gender': 'M'}.
+INFO 2023-10-05 19:29:00,237 basehttp 7808 12632 "POST /lesson4/forms/ HTTP/1.1" 200 1599
+INFO 2023-10-05 19:40:21,540 autoreload 6004 10508 Watching for file changes with StatReloader
+INFO 2023-10-05 19:40:25,792 views 6004 10304 Получили form.cleaned_data={'name': 'name', 'email': 'name@name.com', 'age': 37, 'height': 176.5, 'is_active': True, 'birthdate': datetime.date(1983, 10, 5), 'gender': 'M'}.
+INFO 2023-10-05 19:40:25,832 basehttp 6004 10304 "POST /lesson4/forms/ HTTP/1.1" 200 1599
+INFO 2023-10-05 19:40:28,427 basehttp 6004 10304 "GET /lesson4/forms/ HTTP/1.1" 200 1522
+INFO 2023-10-05 19:40:53,298 basehttp 6004 10304 "GET /lesson4/forms HTTP/1.1" 301 0
+INFO 2023-10-05 19:40:53,315 basehttp 6004 2664 "GET /lesson4/forms/ HTTP/1.1" 200 1522
+INFO 2023-10-05 19:41:43,770 autoreload 6004 10508 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-05 19:41:45,050 autoreload 12844 13252 Watching for file changes with StatReloader
+INFO 2023-10-05 19:42:21,902 autoreload 12844 13252 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-05 19:42:23,205 autoreload 12576 12992 Watching for file changes with StatReloader
+INFO 2023-10-05 19:42:58,736 autoreload 12576 12992 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp4\views.py changed, reloading.
+INFO 2023-10-05 19:43:00,022 autoreload 2424 1332 Watching for file changes with StatReloader
+INFO 2023-10-05 19:43:22,240 basehttp 2424 9104 "GET /lesson4/forms/ HTTP/1.1" 200 2143
+INFO 2023-10-05 19:48:01,263 views 2424 9104 Получили form.cleaned_data={'name': 'name', 'email': 'name@mail.com', 'age': 37, 'height': 176.5, 'is_active': True, 'birthdate': datetime.date(1985, 10, 5), 'gender': 'M', 'message': 'hello, world!'}.
+INFO 2023-10-05 19:48:01,274 basehttp 2424 9104 "POST /lesson4/forms/ HTTP/1.1" 200 2232
+INFO 2023-10-05 19:48:17,550 views 2424 9104 Получили form.cleaned_data={'name': 'name', 'email': 'name@mail.com', 'age': 37, 'height': 176.5, 'is_active': True, 'birthdate': datetime.date(1985, 10, 5), 'gender': 'M', 'message': 'hello, world!'}.
+INFO 2023-10-05 19:48:17,570 basehttp 2424 9104 "POST /lesson4/forms/ HTTP/1.1" 200 2232
+INFO 2023-10-05 20:03:06,723 autoreload 8504 10364 Watching for file changes with StatReloader
+INFO 2023-10-05 20:03:22,225 views 8504 12040 Получили form.cleaned_data={'name': 'name', 'email': 'name@mail.com', 'age': 37, 'height': 176.5, 'is_active': True, 'birthdate': datetime.date(1985, 10, 5), 'gender': 'M', 'message': 'hello, world!'}.
+INFO 2023-10-05 20:03:22,266 basehttp 8504 12040 "POST /lesson4/forms/ HTTP/1.1" 200 2232
+INFO 2023-10-05 20:03:35,710 basehttp 8504 12040 "GET /lesson4/user HTTP/1.1" 301 0
+INFO 2023-10-05 20:03:35,726 basehttp 8504 11108 "GET /lesson4/user/ HTTP/1.1" 200 1018
+INFO 2023-10-05 20:04:56,145 basehttp 8504 11108 "GET /lesson4/user/ HTTP/1.1" 200 957
+INFO 2023-10-05 20:05:29,437 basehttp 8504 11108 "POST /lesson4/user/ HTTP/1.1" 200 1097
+INFO 2023-10-05 20:06:13,538 views 8504 11108 Получили name='name', email='name@corp.mail.ru', age=37.
+INFO 2023-10-05 20:06:13,599 basehttp 8504 11108 "POST /lesson4/user/ HTTP/1.1" 200 1019
+INFO 2023-10-05 20:24:53,963 autoreload 11528 9592 Watching for file changes with StatReloader
+INFO 2023-10-05 20:25:13,966 basehttp 11528 10968 "GET /lesson4/upload HTTP/1.1" 301 0
+INFO 2023-10-05 20:25:13,991 basehttp 11528 12568 "GET /lesson4/upload/ HTTP/1.1" 200 645
+INFO 2023-10-05 20:27:48,814 basehttp 11528 12568 "POST /lesson4/upload/ HTTP/1.1" 200 645
