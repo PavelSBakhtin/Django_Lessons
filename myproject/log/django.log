@@ -936,3 +936,148 @@ INFO 2023-10-07 15:43:08,932 basehttp 4532 2304 "GET /admin/myapp5/product/3/cha
 INFO 2023-10-07 15:43:08,990 basehttp 4532 2304 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-10-07 15:43:13,799 basehttp 4532 2304 "GET /admin/myapp5/product/ HTTP/1.1" 200 13872
 INFO 2023-10-07 15:43:13,833 basehttp 4532 2304 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-07 16:06:29,999 autoreload 10756 10072 Watching for file changes with StatReloader
+INFO 2023-10-07 16:06:43,499 basehttp 10756 8868 "GET /admin/myapp5/product/ HTTP/1.1" 200 23690
+INFO 2023-10-07 16:06:43,531 basehttp 10756 8868 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-10-07 16:06:43,594 basehttp 10756 12552 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-07 16:06:43,686 basehttp 10756 12552 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-10-07 16:06:43,868 basehttp 10756 12552 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-10-07 16:06:43,935 basehttp 10756 12552 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-10-07 16:06:46,406 basehttp 10756 12552 "GET / HTTP/1.1" 200 10388
+INFO 2023-10-07 16:06:54,780 basehttp 10756 12552 "GET /admin/myapp5/product/ HTTP/1.1" 200 23689
+INFO 2023-10-07 16:07:20,159 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=HistoryPanel HTTP/1.1" 200 7462
+INFO 2023-10-07 16:07:20,170 basehttp 10756 12552 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-10-07 16:07:45,548 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=VersionsPanel HTTP/1.1" 200 760
+INFO 2023-10-07 16:08:03,153 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=SettingsPanel HTTP/1.1" 200 28473
+INFO 2023-10-07 16:08:30,138 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=HeadersPanel HTTP/1.1" 200 5364
+INFO 2023-10-07 16:09:06,250 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=RequestPanel HTTP/1.1" 200 2373
+INFO 2023-10-07 16:09:49,985 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=SQLPanel HTTP/1.1" 200 31333
+INFO 2023-10-07 16:10:08,610 basehttp 10756 12552 "POST /__debug__/sql_select/ HTTP/1.1" 200 1932
+INFO 2023-10-07 16:10:13,474 basehttp 10756 12552 "POST /__debug__/sql_explain/ HTTP/1.1" 200 1659
+INFO 2023-10-07 16:10:17,661 basehttp 10756 12552 "POST /__debug__/sql_select/ HTTP/1.1" 200 1932
+INFO 2023-10-07 16:10:25,341 basehttp 10756 12552 "POST /__debug__/sql_explain/ HTTP/1.1" 200 1659
+INFO 2023-10-07 16:10:37,631 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=StaticFilesPanel HTTP/1.1" 200 38575
+INFO 2023-10-07 16:11:15,242 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=TemplatesPanel HTTP/1.1" 200 6441
+INFO 2023-10-07 16:11:39,982 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-10-07 16:11:44,029 basehttp 10756 12552 "GET /__debug__/render_panel/?store_id=aab7943a32074984945432c2a17765ae&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2023-10-07 16:13:35,838 basehttp 10756 12552 "GET /lesson4/user/add/ HTTP/1.1" 200 11174
+INFO 2023-10-07 16:13:35,870 basehttp 10756 12356 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:13:35,870 basehttp 10756 12552 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:13:35,998 basehttp 10756 12356 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:13:36,006 basehttp 10756 12356 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:13:58,640 basehttp 10756 12356 "GET /__debug__/render_panel/?store_id=d7bc0f8bc75d4773b7f0791f7a18b815&panel_id=ProfilingPanel HTTP/1.1" 200 38374
+INFO 2023-10-07 16:36:22,100 autoreload 5908 5700 Watching for file changes with StatReloader
+WARNING 2023-10-07 16:36:25,818 log 5908 10616 Not Found: /lesson6
+WARNING 2023-10-07 16:36:25,819 basehttp 5908 10616 "GET /lesson6 HTTP/1.1" 404 12948
+INFO 2023-10-07 16:36:25,869 basehttp 5908 10424 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:36:25,869 basehttp 5908 10616 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:36:25,988 basehttp 5908 10616 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:36:25,992 basehttp 5908 10616 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2023-10-07 16:36:45,542 log 5908 10616 Not Found: /lesson6/
+WARNING 2023-10-07 16:36:45,543 basehttp 5908 10616 "GET /lesson6/ HTTP/1.1" 404 13366
+INFO 2023-10-07 16:37:05,785 basehttp 5908 10616 "GET /lesson6/db HTTP/1.1" 200 10836
+INFO 2023-10-07 16:37:05,876 basehttp 5908 10424 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+ERROR 2023-10-07 16:37:37,675 log 5908 10424 Internal Server Error: /lesson6/db/
+Traceback (most recent call last):
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py", line 12, in total_in_db
+    return render(request, 'myapp6/total_count.html', context)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp6/total_count.html
+ERROR 2023-10-07 16:37:37,784 basehttp 5908 10424 "GET /lesson6/db/ HTTP/1.1" 500 100709
+INFO 2023-10-07 16:39:12,952 autoreload 5908 5700 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py changed, reloading.
+INFO 2023-10-07 16:39:14,792 autoreload 3444 11976 Watching for file changes with StatReloader
+ERROR 2023-10-07 16:39:19,403 log 3444 9836 Internal Server Error: /lesson6/db/
+Traceback (most recent call last):
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py", line 12, in total_in_db
+    return render(request, './myapp6/total_count.html', context)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ./myapp6/total_count.html
+ERROR 2023-10-07 16:39:19,527 basehttp 3444 9836 "GET /lesson6/db/ HTTP/1.1" 500 100705
+INFO 2023-10-07 16:39:37,748 autoreload 3444 11976 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py changed, reloading.
+INFO 2023-10-07 16:39:39,495 autoreload 10864 11408 Watching for file changes with StatReloader
+ERROR 2023-10-07 16:39:44,071 log 10864 9472 Internal Server Error: /lesson6/db/
+Traceback (most recent call last):
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py", line 12, in total_in_db
+    return render(request, './myapp6/total_count.html', context)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ./myapp6/total_count.html
+ERROR 2023-10-07 16:39:44,194 basehttp 10864 9472 "GET /lesson6/db/ HTTP/1.1" 500 100705
+INFO 2023-10-07 16:40:54,628 autoreload 10864 11408 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py changed, reloading.
+INFO 2023-10-07 16:40:56,259 autoreload 4208 5360 Watching for file changes with StatReloader
+INFO 2023-10-07 16:40:58,706 basehttp 4208 1396 "GET /lesson6/db/ HTTP/1.1" 200 10658
+INFO 2023-10-07 16:41:07,601 autoreload 4208 5360 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py changed, reloading.
+INFO 2023-10-07 16:41:09,307 autoreload 11736 12084 Watching for file changes with StatReloader
+INFO 2023-10-07 16:41:52,112 basehttp 11736 9928 "GET /lesson6/db HTTP/1.1" 200 10837
+INFO 2023-10-07 16:41:52,205 basehttp 11736 11092 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:41:52,349 basehttp 11736 11092 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:41:52,354 basehttp 11736 10960 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:41:52,397 basehttp 11736 10960 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:41:56,524 basehttp 11736 10960 "GET /lesson6/db/ HTTP/1.1" 200 10658
+INFO 2023-10-07 16:42:44,463 basehttp 11736 10960 "GET / HTTP/1.1" 200 10831
+INFO 2023-10-07 16:42:55,085 basehttp 11736 10960 "GET /lesson6/db HTTP/1.1" 200 10836
+INFO 2023-10-07 16:42:55,152 basehttp 11736 11092 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+WARNING 2023-10-07 16:42:59,981 log 11736 11092 Not Found: /lesson6
+WARNING 2023-10-07 16:42:59,983 basehttp 11736 11092 "GET /lesson6 HTTP/1.1" 404 12947
+INFO 2023-10-07 16:44:53,424 autoreload 11736 12084 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py changed, reloading.
+INFO 2023-10-07 16:44:55,146 autoreload 7792 6408 Watching for file changes with StatReloader
+ERROR 2023-10-07 16:45:09,115 log 7792 9732 Internal Server Error: /lesson6/db/
+Traceback (most recent call last):
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py", line 12, in total_in_db
+    return render(request, 'myapp6/total_count.html', context)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Павел\AppData\Local\Programs\Python\Python38\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp6/total_count.html
+ERROR 2023-10-07 16:45:09,246 basehttp 7792 9732 "GET /lesson6/db/ HTTP/1.1" 500 100548
+INFO 2023-10-07 16:46:57,239 autoreload 7792 6408 D:\учёба\Python\19. Фреймворк Django\Лекции\Lessons\myproject\myapp6\views.py changed, reloading.
+INFO 2023-10-07 16:46:58,814 autoreload 7952 5420 Watching for file changes with StatReloader
+INFO 2023-10-07 16:47:10,226 basehttp 7952 10268 "GET /lesson6/db/ HTTP/1.1" 200 10665
+INFO 2023-10-07 16:47:33,030 basehttp 7952 10268 "GET /__debug__/render_panel/?store_id=8ee645eb371b4035b4760a3d55006404&panel_id=SQLPanel HTTP/1.1" 200 37520
+INFO 2023-10-07 16:48:08,847 basehttp 7952 10268 "GET /lesson6/view HTTP/1.1" 200 10842
+INFO 2023-10-07 16:48:08,942 basehttp 7952 11548 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:48:09,089 basehttp 7952 11548 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:48:09,096 basehttp 7952 11548 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-10-07 16:48:09,145 basehttp 7952 11548 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-10-07 16:48:11,240 basehttp 7952 11548 "GET /lesson6/view/ HTTP/1.1" 200 10648
+INFO 2023-10-07 16:48:17,508 basehttp 7952 11548 "GET /__debug__/render_panel/?store_id=bb37b93a98bb41bd97980aa2764f1894&panel_id=SQLPanel HTTP/1.1" 200 38726
+INFO 2023-10-07 16:48:34,848 basehttp 7952 11548 "GET /__debug__/render_panel/?store_id=bb37b93a98bb41bd97980aa2764f1894&panel_id=ProfilingPanel HTTP/1.1" 200 56445
+INFO 2023-10-07 16:49:20,105 basehttp 7952 11548 "GET /lesson6/template/ HTTP/1.1" 200 10632
+INFO 2023-10-07 16:49:25,996 basehttp 7952 11548 "GET /__debug__/render_panel/?store_id=bdb862a7e7ca46a6b515b087427d06e6&panel_id=SQLPanel HTTP/1.1" 200 60214
+INFO 2023-10-07 16:49:36,409 basehttp 7952 11548 "GET /__debug__/render_panel/?store_id=bdb862a7e7ca46a6b515b087427d06e6&panel_id=TemplatesPanel HTTP/1.1" 200 7143
+INFO 2023-10-07 16:50:44,037 basehttp 7952 11548 "GET /__debug__/render_panel/?store_id=bdb862a7e7ca46a6b515b087427d06e6&panel_id=ProfilingPanel HTTP/1.1" 200 38404
+INFO 2023-10-07 16:51:28,407 basehttp 7952 11548 "GET /__debug__/render_panel/?store_id=bdb862a7e7ca46a6b515b087427d06e6&panel_id=HistoryPanel HTTP/1.1" 200 7460
+INFO 2023-10-07 16:51:28,416 basehttp 7952 11548 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
